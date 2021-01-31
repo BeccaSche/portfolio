@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapping {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*Header*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #FFF3F3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#logo1 {
+  margin: 2%;
+}
+
+#banner1 {
+  margin: 1%;
+}
+
+.navbar {
+  background-color: #8D1616;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+}
+
+.navbar li {
+  padding: 1%;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+/*Main*/
+main {
+  background-image: url("../img/traffic-332857_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#heroimage {
+  width: 100%;
+  margin-bottom: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#heroimage img {
+  width: 100%;
+}
+
+#hline4 {
+  width: 90%;
+  padding: 1vw 0vw;
+  color: white;
+  font-size: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+#imgcontainer {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fig {
+  margin: 2vw;
+  border-color: gray;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fig img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fig p {
+  font-size: 1.5vw;
+  color: black;
+  padding: 0.5vw;
+  text-align: center;
+}
+
+.fig .emplName {
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+/*footer*/
+footer {
+  background-color: black;
+  color: white;
+  margin: 1% 0;
+}
+
+footer img {
+  float: right;
+  margin: 1%;
+}
+
+footer p {
+  clear: right;
+  padding: 1%;
+  text-align: center;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  #wrapping {
+    width: 100%;
+    font-size: x-small;
+  }
+  .linkimg, #logoend, #hline1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #wrapping {
+    width: 100%;
+    font-size: xx-small;
+  }
+  .linkimg, #logoend, #hline1 {
+    display: none;
+  }
+}

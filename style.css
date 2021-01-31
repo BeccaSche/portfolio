@@ -1,0 +1,165 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  margin-top: 8vh;
+}
+
+/* backgrounds, text colors & font-size*/
+.b2{
+  background-color: #ff7300;
+  z-index: 1;
+}
+
+.b3{
+  background-color: #FF9900;
+  z-index: 1;
+}
+
+.b4{
+  background-color: #ffb444;
+  z-index: 1;
+}
+
+.b5{
+  background-color: #fcfbf942;
+}
+
+.c1 {
+	color: #FF9900;
+}
+
+.c2 {
+	color: #ff7300;
+}
+
+.t1 {
+  color: rgb(82, 80, 80);
+  font-size: 1.3rem;
+}
+
+.t2 {
+  color: rgb(68, 64, 64);
+  font-size: 1.6rem;
+}
+
+.rslogo{
+  font-size: 2.5rem;
+}
+
+.section-title > hr {
+  width: 35vw;
+  border-top: 3px #FF9900 solid;
+  margin-left: 0;
+}
+
+/* Header */
+
+/* Landing */
+#landing1{
+  margin-top: 2vh;
+}
+
+/* Projects */
+.imageProject{
+  opacity: 0.5
+}
+
+.imageProject:hover{
+  opacity: 1
+}
+
+
+
+/* Resume */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .decoration-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #FF9900;
+  position: relative;
+}
+
+.resume .decoration-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .decoration-item h5 {
+  font-size: 16px;
+  background: #ffb4445b;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .decoration-item ul {
+  padding-left: 20px;
+}
+
+.resume .decoration-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .decoration-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .decoration-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #FF9900;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .t1 {font-size: 1rem;}
+  .t2 {font-size: 1rem;}
+  #portrait {margin-top: 2vh;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {max-width: 590px;}
+  .t1 {font-size: 1rem;}
+  .t2 {font-size: 1.1rem;}
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {max-width: 750px;}
+  .t2 {font-size: 1.1rem;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {max-width: 960px;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {max-width: 1150px;}
+}
+
+   

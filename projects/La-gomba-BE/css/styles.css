@@ -1,0 +1,266 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, rgba(246,246,244,1) 10%, rgba(251,251,235,1) 83%);
+    margin: 0;
+    min-width: fit-content;
+    padding:0;
+}
+
+.jumbotron {
+    background-image: url('../img/IMG_9121.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+
+.bgg1 {
+    background-color: black!important;
+    border-top: 7px solid #f7d10a;
+}
+
+.bgg {
+    background-color: black!important;
+    border-top: 14px solid #f7d10a;
+}
+
+.new {
+    background-color: #fad40b;
+}
+.navbar-nav a {
+    font-size: 1.2rem;
+}
+
+.navbar-nav a:hover {
+    color: #f7d10a!important;
+    background-color: black!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.logo {
+    width: 15vw;
+}
+
+.logo1 {
+    width: 22vw;
+}
+
+.main p {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.prodimg {
+    height: 40vh;
+}
+
+.end {
+    font-size: 1.4rem;
+}
+
+.end:hover {
+    transform: scale(1.2);
+}
+  
+.end {
+    transition: all 0.4s;
+}
+
+.link {
+    font-size: 1.4rem;
+}
+
+.back {
+    font-size: 1.6rem;
+}
+
+/* Preview */
+.preview {
+   width: 100px;
+   height: 100px;
+   border: 1px solid black;
+   background: white;
+}
+
+.preview img {
+   display: none;
+}
+
+.reciCard:hover {
+    box-shadow: 10px 10px 5px grey;
+}
+
+/*new stuff*/
+
+.reciTitle {
+    font-size: 4rem!important;
+    color: #fad40b;
+}
+
+.reciDescription {
+    font-size: 1.5rem!important;
+}
+
+.reciDifficulty {
+    font-size: 1.3rem!important;
+}
+
+.reclink {
+    font-size: 1.4rem;
+}
+
+.stepsTitel {
+    border-bottom: 3px solid #fad40b;
+    font-size: 1.8rem!important;
+
+}
+
+.stepsText {
+    font-size: 1.3rem!important;
+}
+
+.reciFood {
+    font-size: 1.3rem!important;
+}
+
+.active {
+    border-bottom: 6px solid #fad40b!important;
+    height: 56vh!important;
+}
+
+.active img {
+    height: 55vh!important;
+    width: 45%;
+}
+
+.active .recibody {
+    height: 55vh!important;
+}
+
+/* new stuff end */
+
+.accordion {
+    height: 65vh;
+}
+
+.accordion img {
+    height: 65vh;
+}
+
+.recimg img {
+    height: 60vh;
+}
+
+.mushroomInformation{
+    font-size: 1.2rem!important;
+}
+
+.detailimg {
+    height: 70vh!important;
+}
+
+
+@media(max-width: 660px) {
+    .navbar-nav a {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 35vw;
+    }
+
+    .logo1 {
+        width: 65vw;
+    }
+
+    .accordion {
+        height: 100vh;
+    }
+
+    .title h5 {
+        font-size: 0.9rem!important;
+    }
+
+    .title p {
+        font-size: 0.8rem!important;
+    }
+
+    .reciTitle{
+        font-size: 1.7rem!important;
+    }
+
+    .reciDescription{
+        font-size: 1rem!important;
+    }
+
+    .reciDifficulty{
+        font-size: 0.9rem!important;
+    }
+    .recibody {
+        padding-left: 10px!important;
+    }
+
+    .active img {
+        height: 46vh!important;
+        width: 45%!important
+    }
+
+    .active {
+        height: 47vh!important;
+    }
+
+    .active .recibody {
+        width: 54%;
+    }
+
+}
+
+@media(min-width: 661px) and (max-width: 1000px) {
+    .navbar-nav a {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        width: 15vw;
+    }
+
+    .logo1 {
+        width: 30vw;
+    }
+
+    .active {
+        height: 50vh!important;
+    }
+
+    .active img {
+        height: 49vh!important;
+    }
+
+    .reciTitle{
+        font-size: 3rem!important;
+    }
+
+    .reciDescription{
+        font-size: 1.1rem!important;
+    }
+
+    .link {
+        font-size: 1.2rem!important;
+    }
+}
+
+@media(min-width: 1040px) {
+    .navbar-nav a {
+        font-size: 1.4rem;
+    }
+}

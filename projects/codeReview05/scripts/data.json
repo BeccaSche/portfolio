@@ -1,0 +1,44 @@
+var movies = `[
+    {
+        "titel": "The Grand Budapest Hotel",
+        "discrp": "Comedy-drama film written and directed by Wes Anderson, which explores tragedy, war, fascism, nostalgia, friendship, and loyalty",
+        "poster": "img/GrandHotel.jpg",
+        "preLikes": 63
+    },
+    {
+        "titel": "Moonrise Kingdom",
+        "discrp": "American coming-of-age film directed by Wes Anderson, written by Anderson and Roman Coppola. Largely set on the fictional New England island of New Penzance, it tells the story of an orphan boy (Gilman) and a girl with aggressive tendencies (Hayward).",
+        "poster": "img/Moonrise.jpg",
+        "preLikes": 44
+    },
+    {
+        "titel": "The Royal Tenenbaums",
+        "discrp": "American comedy-drama film directed by Wes Anderson and co-written with Owen Wilson. It follows the lives of three gifted siblings who experience great success in youth, and even greater disappointment and failure in adulthood",
+        "poster": "img/Tenenbaums.jpg",
+        "preLikes": 66
+    },
+    {
+        "titel": "The Life Aquatic with Steve Zissou",
+        "discrp": "American comedy-drama film directed, co-written, and co-produced by Wes Anderson. The story covers an eccentric oceanographer who sets out to exact revenge on the 'jaguar shark' that ate his partner Esteban",
+        "poster": "img/LifeAquatic.jpg",
+        "preLikes": 83
+    },
+    {
+        "titel": "Isle of Dogs",
+        "discrp": "Stop-motion-animated science-fiction comedy drama film written, produced and directed by Wes Anderson. Set in a dystopian near-future Japan, the story follows a pack of banished dogs, led by street dog Chief (Bryan Cranston), who helps a young boy named Atari (Koyu Rankin) search for his own dog after the species is banished to an island following the outbreak of a canine flu.",
+        "poster": "img/IsleDog.jpg",
+        "preLikes": 88
+    },
+    {
+        "titel": "The Darjeeling Limited",
+        "discrp": "American comedy-drama film directed by Wes Anderson which he co-produced with Scott Rudin, Roman Coppola and Lydia Dean Pilcher and co-wrote with Coppola and Jason Schwartzman. The story is about three estranged brothers who agree to meet in India a year after their father's funeral for a 'spiritual journey' aboard a luxury train.",
+        "poster": "img/Darjeeling.jpg",
+        "preLikes": 71
+    },
+    {
+        "titel": "Fantastic Mr. Fox",
+        "discrp": "Stop motion animated comedy film directed by Wes Anderson, based on Roald Dahl's 1970 children's novel of the same name. The film is about a fox who steals food each night from three mean and wealthy farmers. They are fed up with Mr. Fox's theft and try to kill him so they dig their way into the foxes' home.",
+        "poster": "img/MrFox.jpg",
+        "preLikes": 58
+    }
+]`;

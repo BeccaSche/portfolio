@@ -1,0 +1,269 @@
+*
+	margin: 0
+	padding: 0
+	font-family: 'Roboto Condensed', sans-serif
+
+#wrapping
+	width: 85%
+	margin: 0 auto
+
+/*Header*/
+
+header
+	display: flex
+	flex-direction: column
+
+banner
+	display: flex
+	width: 100%
+	background-color: #FFF3F3
+	justify-content: space-between
+	align-items: center
+		
+
+#logo1 
+	margin: 2%
+
+#banner1
+	margin: 1%
+
+.navbar
+	background-color: #8D1616
+	
+	ul
+		display: flex
+		flex-direction: row
+		text-decoration: none
+
+	li
+		padding: 1%
+		list-style: none
+	a
+		text-decoration: none
+		color: white
+		font-size: 2vw
+
+/*Main*/
+
+main
+	background-image: url("../img/traffic-332857_1920.jpg")
+	background-repeat: no-repeat
+	background-size: contain
+
+main
+	display: flex
+	flex-flow: column nowrap
+	justify-content: space-around
+	align-items: center
+
+#hline1
+	width: 95%
+	padding: 2vw
+	color: white
+	font-size: 3.5vw
+	display: flex
+	align-content: start
+
+// Box 1 -> semitrans white
+#Box1
+	border: 2px solid gray
+	border-radius: 3px
+	background-color: rgba(white, 0.7)
+	width: 90%
+	display: flex
+	flex-flow: column nowrap
+	justify-content: space-around
+	align-items: center
+	margin-bottom: -3vw
+	z-index: 1
+
+	#hline2
+		font-size: 3vw
+		padding: 2vw
+		display: flex
+		flex-flow: column wrap
+		width: 50%
+		margin: auto
+		text-align: center
+
+	#form
+		width: 80%
+		display: flex
+		flex-flow: row wrap
+		justify-content: space-around
+		align-items: space-around
+		
+		.fwindow
+			display: flex
+			flex-flow: column nowrap
+			margin: 2vw
+
+		h2 
+			font-size: 1.8vw
+
+		input
+			width: 22vw
+			height: 3.5vw
+			font-size: 1.8vw
+			font-weight: bold 
+			padding: 0.3vw
+
+		select 
+			width: 22vw
+			height: 3.5vw
+			font-size: 1.8vw
+			font-weight: bold 
+			padding: 0.3vw
+	
+	#button
+		border-style: solid
+		border-color: green
+		background-color: #359136
+		color: white
+		font-size: 2.5vw
+		border-radius: 6px
+		margin-top: 0.2vw
+		width: 20vw
+		height: 4.5vw
+
+	
+	#result
+		padding: 1.5vw
+		color: #359136
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+		font-size: 4vw
+		text-align: center
+	
+//Box2 -> Gray
+#Box2
+	width: 100%
+	background: lightgray
+	display: flex
+	flex-flow: column nowrap
+	justify-content: space-between
+	align-items: center
+
+#hline3
+	font-size: 3vw
+	margin: 6vw 6vw 1vw 5vw
+
+#p1 
+	font-size: 2vw
+	margin: 0vw 17vw 2vw 17vw
+	text-align: center
+
+
+//Box3 -> white
+
+#Box3
+	width: 100%
+	background: white
+	display: flex
+	flex-flow: row nowrap
+	justify-content: space-around
+	
+.factbox
+	min-width: 35%
+	font-size: 1.5vw
+	padding: 3vw
+	margin: 3vw 2vw
+
+#fbox1
+	border-top: 2px solid black
+	border-left: 2px solid #ECECEC
+	border-radius: 3px
+	box-shadow: 4px 4px 2px #ECECEC
+		
+#fbox2
+	border-top: 2px solid black
+	border-left: 2px solid #ECECEC
+	border-radius: 3px
+	box-shadow: 4px 4px 2px #ECECEC
+	
+h3
+	font-size: 2vw
+	color: #546E92
+
+li
+	list-style: none
+	padding: 0.5vw
+
+li > span 
+	color: #90D2D4
+
+.line
+	border: 0.3px solid lightgray
+
+
+/*footer*/
+#navbottom
+	background-color: black
+
+footer
+	background-color: black
+	color: white
+	margin: 1% 0
+
+	img
+		float: right
+		margin: 1%
+
+	p
+		clear: right
+		padding: 1%
+		text-align: center
+
+// media queries mobile
+
+@media screen and (min-width:481px) and (max-width:1200px)
+	#wrapping
+		width: 100%
+		font-size:  x-small
+
+	.linkimg, #logoend, #hline1
+		display: none
+
+	#Box1 #form
+		width: 95%
+		display: flex
+		flex-flow: column wrap
+		justify-content: space-around
+		align-items: center
+
+	.navbar ul
+		justify-content: center
+
+	#Box3
+		width: 60%
+		display: flex
+		flex-flow: column nowrap
+		justify-content: space-around
+	
+
+@media screen and (max-width:480px)
+
+	#wrapping
+		width: 100%
+		font-size: xx-small
+
+	.linkimg, #logoend, #hline1
+		display: none
+
+	#Box1 #form
+		width: 95%
+		display: flex
+		flex-flow: column wrap
+		justify-content: space-around
+		align-items: center
+
+	.navbar ul
+		justify-content: center
+
+	#Box3
+		width: 60%
+		display: flex
+		flex-flow: column nowrap
+		justify-content: space-around
+
+
+		

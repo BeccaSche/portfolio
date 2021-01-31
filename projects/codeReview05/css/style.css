@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+  background-color: #D3DDDC;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+banner {
+  width: 100%;
+  background-color: #F7CBDA;
+  padding: 2vw 4vw;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 8vw;
+  font-weight: bold;
+  color: orange;
+}
+
+.navbar {
+  background-color: orange;
+  padding: 2vw 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h3 {
+  font-size: 3vw;
+  color: #F7CBDA;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+}
+
+li {
+  padding: 1%;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 3vw;
+}
+
+#hero {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.movieList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.movieBox0, .movieBox1, .movieBox2, .movieBox3, .movieBox4, .movieBox5, .movieBox6 {
+  width: 40%;
+  margin: 1.5vw 2vw;
+}
+
+.poster {
+  width: 28vw;
+  margin-left: 4vw;
+}
+
+.poster img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  font-size: 3vw;
+  color: orange;
+  margin: 1vw 0.3vw;
+}
+
+.desc {
+  font-size: 1.5vw;
+  color: white;
+  margin: 0.5vw 0.3vw;
+}
+
+#clicks0, #clicks1, #clicks2, #clicks3, #clicks4, #clicks5, #clicks6 {
+  font-size: 5vw;
+  color: orange;
+}
+
+.thumb {
+  width: 5vw;
+}
+
+footer {
+  background-color: orange;
+  color: white;
+  padding: 3% 0;
+}
+
+footer p {
+  clear: right;
+  padding: 1%;
+  text-align: center;
+}

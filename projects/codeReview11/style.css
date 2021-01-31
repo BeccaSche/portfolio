@@ -1,0 +1,65 @@
+
+.b1 {
+  background-image: url('img/hero_dog.jpg');
+  background-color: #D9D7B1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 32vh;
+}
+
+.b1a {
+  background-image: url('img/hero_dog2.jpg');
+  background-color: #D9D7B1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 32vh;
+}
+
+.b2 {
+  background-image: url('img/hero_cat.jpg');
+  background-color: #D9D7B1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 32vh;
+}
+
+.b3{
+  background-color: #E18B90;
+  z-index: 1;
+}
+
+.b4{
+  background-color: #D3C7D5;
+  z-index: 1;
+}
+
+.c1 {
+	color: #961E1F;
+}
+
+.jc1 {
+  color: #961E1F;
+  font-size: 10rem;
+}
+
+.j2 {
+  font-size: 1.8rem;
+}
+
+.c2 {
+	color: #E18B90;
+}
+
+fieldset {
+  margin : auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
+table  tr th {
+    padding-top: 20px;
+}
+   

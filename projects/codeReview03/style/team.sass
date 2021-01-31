@@ -1,0 +1,133 @@
+*
+	margin: 0
+	padding: 0
+	font-family: 'Roboto Condensed', sans-serif 
+
+#wrapping
+	width: 95%
+	margin: 0 auto
+
+/*Header*/
+
+header
+	display: flex
+	flex-direction: column
+
+	banner
+		display: flex
+		width: 100%
+		background-color: #FFF3F3
+		justify-content: space-between
+		align-items: center
+		
+#logo1 
+	margin: 2%
+
+#banner1
+	margin: 1%
+
+.navbar
+	background-color: #8D1616
+	
+	ul
+		display: flex
+		flex-direction: row
+		text-decoration: none
+
+	li
+		padding: 1%
+		list-style: none
+	a
+		text-decoration: none
+		color: white
+		font-size: large
+
+/*Main*/
+
+main
+	background-image: url("../img/traffic-332857_1920.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+
+main
+	width: 100%
+	display: flex
+	flex-flow: column nowrap
+	justify-content: space-around
+	align-items: center
+
+#heroimage
+	width: 100%
+	margin-bottom: 4vw
+	display: flex
+	justify-content: center
+
+	img
+		width: 100%
+				
+#hline4
+	width: 90%
+	padding: 1vw 0vw
+	color: white
+	font-size: 4vw
+	display: flex
+	align-content: start
+
+#imgcontainer
+	width: 90%
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-around
+	align-items: center
+
+.fig
+	margin: 2vw
+	border-color: gray
+	background-color: rgba(white, 0.7)
+
+	img 
+		object-fit: cover
+
+	p
+		font-size: 1.5vw
+		color: black
+		padding: 0.5vw
+		text-align: center
+	
+	.emplName
+		font-size: 1.8vw
+		font-weight: bold
+
+/*footer*/
+
+footer
+	background-color: black
+	color: white
+	margin: 1% 0
+
+	img
+		float: right
+		margin: 1%
+
+	p
+		clear: right
+		padding: 1%
+		text-align: center
+
+@media screen and (min-width:481px) and (max-width:1200px)
+	#wrapping
+		width: 100%
+		font-size:  x-small
+
+	.linkimg, #logoend, #hline1
+		display: none
+
+	
+@media screen and (max-width:480px)
+
+	#wrapping
+		width: 100%
+		font-size: xx-small
+
+	.linkimg, #logoend, #hline1
+		display: none

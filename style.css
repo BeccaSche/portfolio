@@ -26,6 +26,10 @@ body{
   background-color: #fcfbf942;
 }
 
+.b6{
+  background-color: #fcfbf9e8;
+}
+
 .c1 {
 	color: #FF9900;
 }
@@ -54,7 +58,8 @@ body{
   margin-left: 0;
 }
 
-/* Header */
+/*Nav*/
+
 
 /* Landing */
 #landing1{
@@ -63,7 +68,7 @@ body{
 
 /* Projects */
 .imageProject{
-  opacity: 0.5
+  opacity: 0.7
 }
 
 .imageProject:hover{
@@ -89,12 +94,22 @@ body{
 }
 
 .resume .decoration-item h4 {
-  line-height: 18px;
-  font-size: 18px;
+  line-height: 1.3rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #050d18;
   margin-bottom: 10px;
 }
+
+#cv-link-large h4 {
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+
 
 .resume .decoration-item h5 {
   font-size: 16px;
@@ -136,25 +151,29 @@ body{
   .t1 {font-size: 1rem;}
   .t2 {font-size: 1rem;}
   #portrait {margin-top: 2vh;}
+  #cv-link-large{display: none;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) and (max-width: 767px) {
   .container {max-width: 590px;}
   .t1 {font-size: 1rem;}
   .t2 {font-size: 1.1rem;}
+  #cv-link-large{display: none;}
   }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px){
   .container {max-width: 750px;}
   .t2 {font-size: 1.1rem;}
+  #cv-link-large{display: none;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .container {max-width: 960px;}
+  #cv-link-small{display: none;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

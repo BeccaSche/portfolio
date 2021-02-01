@@ -28,60 +28,61 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
     
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-		<a class="navbar-brand" href="index.html"><b class="c2 rslogo">RS</b></a>
-		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
+    <nav class="navbar navbar-expand-lg navbar-light b6 fixed-top px-5">
+		  <a class="navbar-brand" href="index.html"><b class="c2 rslogo">RS</b></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 	  
-		<div class="navbar-collapse collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#projects">projects<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#resume">resume<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#skills">skills<span class="sr-only">(current)</span></a>
-          </li>
-			</ul>
-			<div>
-			<a href="" target="_blank" title="LinkedIn" class="" role="button">LinkedIn</a>
-			<a href="" target="_blank" title="LinkedIn" class="" role="button">Xing</a>
-      </div>
-		  </div>
-	</nav>
+		  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><b class="t1">projects</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume"><b class="t1">resume</b></a>
+            </li>
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#skills"><b class="t1">skills</b><span class="sr-only">(current)</span></a>
+            </li> -->
+        </ul>
 
+			  <div>
+			    <a href="https://www.linkedin.com/in/rebeccaschedler/" target="_blank" title="LinkedIn" class="c2">LinkedIn</a>
+			    <a href="" target="_blank" title="coming soon" class="c2 mx-4">Xing</a>
+        </div>
+		  </div>
+	  </nav>
   </header>
+  <div class="my-5 py-3"></div>
 
   <section id="landing" class="landing">
     <div class="container" id="landing1">
+
       <div class="intro b2 row p-5 mb-5 mx-0">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-center b5 py-4">
-          <h2 class="text-light mt-2">Rebecca Schedler</h2>
-          <p class="mt-4 t2">
-            <i class="material-icons">email</i> rebecca.schedler@gmx.net <br>
+          <h2 class="text-light mt-4">Rebecca Schedler</h2>
+          <p class="mt-4 t2 text-break">
+            <i class="material-icons">email</i>rebecca.schedler@gmx.net<br>
             <i class="material-icons">call</i> +43 677 62445051 <br>
           </p> 
-          <h5 class="text-light mt-5">
-          Vorarlberg - Tirol - Wien - Zurich
+          <h5 class="text-light mt-4">
+          Vorarlberg - Tirol - Vienna - Zurich
           </h5>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="portrait">
           <img src="img/Portrait_front_cropped.jpg" alt="portrait" width="300" class="img-fluid">
         </div>
-
       </div>
 
-      <div class="facts">
-	      <div class="row mt-4">
+      <div class="facts mt-4">
+	      <div class="row my-4">
           <div class="col-md-4">
               <img class="img-fluid" src="img/bulb.jpg" alt="bulb" width="160" height="160">
               <br><hr>
-              <h4>Curiosity</h4>
-              <p class="t2">The urge to challenge myself and learn new things led me to start with web development.
+              <h4><b>Curiosity</b></h4>
+              <p class="t2 text-justify">The urge to challenge myself and learn new things led me to start with web development.
               Check out my CV to see what I did before and how it helps me now.</p>
               <p><a class="btn b3 text-light font-weight-bolder" href="#resume" role="button">View CV »</a></p>
           </div>
@@ -89,8 +90,8 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
           <div class="col-md-4">
             <img class="img-fluid" src="img/gear.jpg" alt="gear" width="160" height="160">
             <br><hr>
-            <h4>Allrounder</h4>
-            <p class="t2">Front End or Back End? <br>
+            <h4><b>Allrounder</b></h4>
+            <p class="t2 text-justify">Front End or Back End? <br>
             I consider myself an allrounder who always sees the bigger picture. Design and functionality are equally important in my projects.</p>
             <p><a class="btn b3 text-light font-weight-bolder" href="#projects"
             role="button">View projects »</a></p>
@@ -99,8 +100,8 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
           <div class="col-md-4">
             <img class="img-fluid" src="img/mountain.jpg" alt="mountain" width="160" height="160">
             <br><hr>
-            <h4>Offline</h4>
-            <p class="t2">Skiing, cooking and going to concerts are the counterbalance to my online time.</p>
+            <h4><b>Offline</b></h4>
+            <p class="t2 text-justify">Skiing, cooking and going to concerts are the counterbalance to my online time.</p>
             
           </div>
         </div>
@@ -122,7 +123,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
           <?php
           if ($resFinal->num_rows > 0) {
             while ($row = $resFinal->fetch_assoc()) {
-              echo "<div class='col-12 col-xl-6 my-3'>
+              echo "<div class='col-12 col-xl-6 my-5'>
                       <h4 class='mb-1'>" . $row['title'] . "</h4>
                       <h5 class='c2'>" . $row['tools'] . "</h5>
                       <a href='". $row['link_page']."'>
@@ -146,7 +147,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
           <?php
           if ($resCR->num_rows > 0) {
             while ($row = $resCR->fetch_assoc()) {
-              echo "<div class='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-3'>
+              echo "<div class='col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 my-4'>
                       <h4 class='mb-1'>" . $row['title'] . "</h4>
                       <h5 class='c2'>" . $row['tools'] . "</h5>
                       <a href='". $row['link_page']."'>
@@ -203,7 +204,13 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
               <p>Major: Communication & Media Science<br>
               Minors: Political Science and Social Anthropology</p>
             </div>
-            
+
+            <div id="cv-link-large" class="mt-3">
+              <h4>View the full resume as pdf:</h4>
+                <a href="img/CV_Schedler_en.pdf" target="_blank" title="Resume English" class="c2 font-weight-bolder">English</a>
+
+                <a href="img/CV_Schedler_de.pdf" target="_blank" title="Resume German" class="c2 font-weight-bolder ml-4">German</a>
+            </div>
         </div>
 
         <div class="col-lg-6">
@@ -268,6 +275,13 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
               <h5>July - September 2005</h5>
             </div>
 
+            <div id="cv-link-small" class="mt-4">
+              <h4>View the full resume as pdf:</h4>
+                <a href="img/CV_Schedler_en.pdf" target="_blank" title="Resume English" class="c2 font-weight-bolder">English</a>
+
+                <a href="img/CV_Schedler_de.pdf" target="_blank" title="Resume German" class="c2 font-weight-bolder ml-4">German</a>
+            </div>
+
         </div>
       </div>
     </div>
@@ -291,12 +305,13 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
     </div>
   </section> -->
 
-  <footer class="b2 d-flex justify-content-between mt-5">
+  <footer class="b3 d-flex justify-content-between mt-5">
     <div class="text-light my-2 ml-4"><b class="rslogo">RS </b></div>
     <div class="text-light my-4 mr-5">rebecca.schedler@gmx.net | Tel +43 67762445051</div>
   </footer>
-      </div>
 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -22,6 +22,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </head>
 
 <body>
@@ -59,20 +60,20 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
   <section id="landing" class="landing">
     <div class="container" id="landing1">
 
-      <div class="intro b2 row p-5 mb-5 mx-0">
+      <div class="intro b2 row p-5 mb-5 mx-0 ">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 text-center b5 py-4">
           <h2 class="text-light mt-4">Rebecca Schedler</h2>
-          <p class="mt-4 t2 text-break">
+          <p class="mt-4 t3 text-break">
             <i class="material-icons">email</i>rebecca.schedler@gmx.net<br>
             <i class="material-icons">call</i> +43 677 62445051 <br>
           </p> 
-          <h5 class="text-light mt-4">
+          <h5 class="text-light t3 mt-4">
           Vorarlberg - Tirol - Vienna - Zurich
           </h5>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="portrait">
-          <img src="img/Portrait_front_cropped.jpg" alt="portrait" width="300" class="img-fluid">
+          <img src="img/Portrait_front_cropped.jpg" alt="portrait" class="img-fluid">
         </div>
       </div>
 
@@ -82,7 +83,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
               <img class="img-fluid" src="img/bulb.jpg" alt="bulb" width="160" height="160">
               <br><hr>
               <h4><b>Curiosity</b></h4>
-              <p class="t2 text-justify">The urge to challenge myself and learn new things led me to start with web development.
+              <p class="t2">The urge to challenge myself and learn new things led me to start with web development.
               Check out my CV to see what I did before and how it helps me now.</p>
               <p><a class="btn b3 text-light font-weight-bolder" href="#resume" role="button">View CV »</a></p>
           </div>
@@ -91,7 +92,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
             <img class="img-fluid" src="img/gear.jpg" alt="gear" width="160" height="160">
             <br><hr>
             <h4><b>Allrounder</b></h4>
-            <p class="t2 text-justify">Front End or Back End? <br>
+            <p class="t2">
             I consider myself an allrounder who always sees the bigger picture. Design and functionality are equally important in my projects.</p>
             <p><a class="btn b3 text-light font-weight-bolder" href="#projects"
             role="button">View projects »</a></p>
@@ -101,7 +102,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
             <img class="img-fluid" src="img/mountain.jpg" alt="mountain" width="160" height="160">
             <br><hr>
             <h4><b>Offline</b></h4>
-            <p class="t2 text-justify">Skiing, cooking and going to concerts are the counterbalance to my online time.</p>
+            <p class="t2">Skiing, cooking and going to concerts are the counterbalance to my online time.</p>
             
           </div>
         </div>
@@ -130,7 +131,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
                         <img src='img/" . $row['image'] . "' class='img-fluid d-sm-none d-md-block imageProject' alt='screenshot of project'>
                       </a>                      
                       <div class='mt-2 c2'>" . $row['type'] . "</div>
-                      <div class='mt-1 t1'>" . $row['description'] . "</div>
+                      <div class='mt-1 t1 shortText'>" . $row['description'] . "</div>
                       <div class='mt-3'>
                         <a href='". $row['link_page']."' type='button' class='btn b3 text-light'><b>View Page</b></a>
                         <a href='". $row['link_github']."' type='button' class='btn b4 text-light'><b>View GitHub</b></a>
@@ -154,7 +155,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
                         <img src='img/" . $row['image'] . "' class='img-fluid d-sm-none d-md-block imageProject' alt='screenshot of project'> 
                       </a>                      
                       <div class='mt-2 c2'>" . $row['type'] . "</div>
-                      <div class='mt-1 t1'>" . $row['description'] . "</div>
+                      <div class='mt-1 t1 shortText'>" . $row['description'] . "</div>
                       <div class='mt-3'>
                         <a href='". $row['link_page']."' type='button' class='btn b3 text-light'><b>View Page</b></a>
                         <a href='". $row['link_github']."' type='button' class='btn b4 text-light'><b>View GitHub</b></a>
@@ -311,6 +312,7 @@ $resCR = mysqli_query($conn, "SELECT * FROM projects WHERE type = 'CodeReview'")
   </footer>
 
 
+  <script type="text/javascript" src="script.js"></script>                   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
